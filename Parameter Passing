@@ -1,0 +1,12 @@
+What is Paramater Passing
+Parameter passing refers to the method used to pass arguments to functions or procedures in programming. It determines how the values of variables are communicated to functions when they are called. There are several common methods of parameter passing:
+
+Pass by Value: A copy of the actual value is passed to the function. Changes made to the parameter inside the function do not affect the original variable.
+
+Pass by Reference: A reference (or address) to the actual variable is passed. This allows the function to modify the original variable's value.
+
+Pass by Value-Result: Similar to pass by value, but the final value of the parameter is copied back to the original variable after the function call.
+
+Pass by Name: The argument is not evaluated until it's used in the function, allowing for more dynamic behavior but can lead to unexpected results.
+
+Pass by Keyword: Arguments are passed to the function using their names, allowing for more flexibility in the order of parameters.
